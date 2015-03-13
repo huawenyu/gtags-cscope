@@ -133,7 +133,7 @@ function! s:GtagsCscope()
     " Load gtags-cscope.
     "
     set csprg=gtags-cscope
-    exe "cs add " . gtagsroot . "/GTAGS"
+    exe "silent cs add " . gtagsroot . "/GTAGS"
     set csto=0
     "
     " Key mapping
